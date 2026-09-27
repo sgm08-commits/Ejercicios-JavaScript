@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="recuadro">
+        <h1> </h1>
+    </div>
+
+    <div class="titulo">
+        <h1>Calculadora</h1>
+    </div>
+
+    <div class="recuadro1">
+        <h1> </h1>
+    </div>
+
+    <div class="titulo2">
+        <h3>Resultado</h3>
+    </div>
+
+    <div class="inputs">
+    <input type="number" id="n1" placeholder="Numero 1">
+    <input type="number" id="n2" placeholder="Numero 2">
+    </div>
+
+    <div class="botones">
+    <button onclick="calcularSUMA()">Sumar</button>
+    <button onclick="calcularRESTA()">Restar</button>
+    <button onclick="calcularMULT()">Multiplicar</button>
+    <button onclick="calcularDIV()">Dividir</button>
+    <button onclick="calcularMayorMenor()">Comparar</button>
+    <button onclick="calcularParImpar()">Comparar par o impar</button>
+    </div>
+
+    <div class="resultado">
+    <div id="resultado"></div>
+    </div>
+
+    <div class="resultadoL">
+    <div id="resultadoL"></div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
